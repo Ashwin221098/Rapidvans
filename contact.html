@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/icofont.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation section -->
+    <nav id="navigation">
+        <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="left-content">
+                        <span>Call us on</span>
+                        <a href="">01446 502955</a>
+                    </div>
+                    <div class="right-links-content">
+                        <ul class="d-flex list-unstyled">
+                            <li><a href="">Finance Options</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">FAQ's</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a class="sign-in" href="">Sign in</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </nav>
+    <!-- Navigation section end -->
+
+    <!-- Header section -->
+    <header id="header">
+        <div class="container">
+            <div class="d-flex bd-highlight">
+                <div class="bd-highlight  header-left-logo">
+                    <img src="./images/rapid-vans-logo.svg" alt="rapidvans logo">
+                </div>
+                <div class="bd-highlight header-left-dropdown">
+                    <ul class="d-flex list-unstyled">
+                        <li class="van">
+                            <a href="#">Vans <i class="icofont-rounded-down"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Pickups <i class="icofont-rounded-down"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ml-auto bd-highlight header-right-logo">
+                    <img src="./images/predator-logo-.svg" alt="predator-logo">
+                </div>
+            </div>
+       </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="home-contact">
+                <a href="">Home</a><i class="icofont-rounded-right"></i><span>Contact Form</span>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <div class="desc-list">
+                        <div class="login d-flex justify-content-between">
+                            <h3>Customer Account</h3>
+                            <a href="" class="btn">Login to Account</a>
+                        </div>
+                        <div class="contact-list">
+                            <ul class="list-unstyled">
+                                <li><img src="./images/tyre.svg" alt="tyre">Edit personal details</li>
+                                <li>
+                                    <img src="./images/tyre.svg" alt="tyre">View service intervals and important contract date reminders
+                                </li>
+                                <li><img src="./images/tyre.svg" alt="tyre">Request collection or contract amendments</li>
+                                <li><img src="./images/tyre.svg" alt="tyre">Find breakdown and maintenance contract details</li>
+                                <li><img src="./images/tyre.svg" alt="tyre">View useful contact numbers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="desc-list find-us">
+                        <div class="login d-flex justify-content-between">
+                            <h3>Customer Account</h3>
+                            <a href="" class="btn">Email Us</a>
+                        </div>
+                        <div class="find-list">
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    <img src="./images/tyre.svg" alt="tyre">
+                                    <span>Rapid Vans Leasing Ltd</span>
+                                    <span>Duffryn Lloff Barn</span>
+                                    <span>Tredodridge</span>
+                                    <span>Vale of Glamorgan, CF71 7UL</span>
+                                    <span>Call us: 01446 502955</span>
+                                </li>
+                                <li>
+                                    <img src="./images/tyre.svg" alt="tyre">
+									<span class="font-bold">We are open:</span>
+									<span>Monday to Friday</span>
+									<span>[9am to 6pm]</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-box">
+                        <h3 class="text-center">Contact Form</h3>
+                        <form action="">
+                            <div class="form-list">
+                                <label for="">Name*</label>
+                                <input id="username" class="form-style" type="text" placeholder="Enter your name">
+                                <div class="error" id="usermsg">*Please enter your name</div>
+                            </div>
+                            <div class="form-list">
+                                <label for="">Email Address*</label>
+                                <input id="usermail" class="form-style" type="text" placeholder="Enter your email address">
+                                <div class="error" id="usermsg">*Please enter your Email address</div>
+                            </div>
+                            <div class="form-list">
+                                <label for="">Mobile Number*</label>
+                                <input id="usernumber" class="form-style" type="text" placeholder="Enter your mobile number">
+                                <div class="error" id="usermsg">*Please enter your mobile number</div>
+                            </div>
+                            <div class="form-list">
+                                <label for="">Message</label>
+                                <textarea class="form-style" placeholder="Enter your message"></textarea>
+                            </div>
+                            </div>
+                            <button class="btn" type="button" onclick="validate()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact section end-->
+
+    <!-- Footer section -->
+    <footer id="footer">
+        <div class="container">
+            <div class="main-footer">
+                <div class="row d-flex">
+                    <div class="col-2">
+                       <div class="footer-list">
+                           <h5>Company</h5>
+                           <ul class="list-unstyled">
+                               <li><a href="file:///F:/Ashwin/FSD/Rapidvans/index.html">Home</a></li>
+                               <li><a href="">About</a></li>
+                               <li><a href="">Blog</a></li>
+                               <li><a href="file:///F:/Ashwin/FSD/Rapidvans/contact.html">Contact Us</a></li>
+                               <li><a href="">BVRLA Member</a></li>
+                           </ul>
+                       </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="footer-list">
+                            <h5>Legal</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Terms</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Cancellation Rights</a></li>
+                                <li><a href="">Complaints Policy</a></li>
+                                <li><a href="">Information Notice</a></li>
+                                <li><a href="">Unsubscribe</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="footer-list">
+                            <h5>Others</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Finance Options</a></li>
+                                <li><a href="">FAQs</a></li>
+                                <li><a href="">News & Blog's</a></li>
+                                <li><a href="">Sign In</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="footer-list">
+                            <h5>More Info</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Monday - Thursday:</a></li>
+                                <li><span>9am - 6pm</span></li>
+                                <li><a href="">Contact:</a></li>
+                                <li><a href=""><span>info@rapidvans.co.uk</span></a></li>
+                            </ul>    
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="social-links pt-4">
+                            <div class="d-flex justify-content-end flex-wrap">
+                                <a href=""><img src="./images/facebook.svg" alt="facebook"></a>
+                                <a href=""><img src="./images/twitter.svg" alt="twitter"></a>
+                            </div>
+                            <div class="d-flex justify-content-end flex-wrap">
+                                <a href=""><img src="./images/instagram.svg" alt="instagram"></a>
+                                <a href=""><img src="./images/linkedin.svg" alt="linkin"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parter-company">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-2">
+                        <img src="./images/experian.webp" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/bnp.webp" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/BVRLA.webp" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/MotoNovo.png" alt="">
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/4x4AT.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-disc">
+                <p class="text-center">
+                    Rapid Vans Leasing Limited Registered in England and Wales with registered number: 11256445 Registered office: Duffryn Lloff Barn, Tredodridge, Vale of Glamorgan, CF717UL, United Kingdom. VAT number 292778254. ICO. (Information Commissioner's Office) Ref no. ZA458647. We are authorised and regulated by the Financial Conduct Authority (Our Financial Conduct Authority Register number is 806801). Rapid Vans Leasing Limited is a Credit Broker not a Lender, we can introduce you to a selected group of Lenders. Calls are recorded for compliance and training purposes
+                </p>
+            </div>
+            <!-- Legal section -->
+            <div class="legal d-flex justify-content-between">
+                <div class="copyright">
+                    <p>Copyright © 2021 Rapid Vans. All Right reserved | Privacy | Terms & Conditions</p>
+                </div>
+                <div class="built">
+                    <p>Built by <span>MOBO</span></p>
+                </div>
+            </div>
+           <!-- Legal section end -->
+        </div>
+    </footer>    
+    <!-- Footer section end -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
